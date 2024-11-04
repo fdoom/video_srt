@@ -38,15 +38,11 @@ AUDIO_PATH = 'download_video.wav'
 SRT_PATH = 'download_video.srt'
 ZIP_PATH = 'download.zip'
 
+paths_to_remove = [VIDEO_PATH, AUDIO_PATH, SRT_PATH, ZIP_PATH]
 def remove_file():
-    if os.path.exists(VIDEO_PATH):
-        os.remove(VIDEO_PATH)
-    if os.path.exists(AUDIO_PATH):
-        os.remove(AUDIO_PATH)
-    if os.path.exists(SRT_PATH):
-        os.remove(SRT_PATH)
-    if os.path.exists(ZIP_PATH):
-        os.remove(ZIP_PATH)
+    for path in paths_to_remove:
+        if os.path.exists(path):
+            os.remove(path)
 
 @app.post("/")
 def read_url(request: UrlRequestDTO, background_tasks: BackgroundTasks):
