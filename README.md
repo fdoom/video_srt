@@ -1,6 +1,6 @@
 # 영상 다운로드 및 자막 번역 프로그램
 
-이 프로젝트는 여러 사이트([지원 사이트 목록](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md))에서 영상을 다운로드하고, 영상의 음성을 자막으로 변환한 후 번역하는 기능을 제공
+이 프로그램는 여러 사이트([지원 사이트 목록](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md))에서 영상을 다운로드하고, 영상의 음성을 자막으로 변환한 후 번역하는 기능을 제공
 
 ## 주요 기능
 
