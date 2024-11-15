@@ -15,7 +15,7 @@
 4. `docker compose up --build` 이후 whisper와 nllb 모델을 다운받는 과정을 거친다.
 5. `http://localhost:81/docs` 혹은 `http://localhost:8001/docs` 접속 후 `POST /` 요청에 `url`은 웹 주소, `lang_from`은 Whsiper 모델이 지원하는 언어를, `lang_to`는 nllb 모델이 지원하는 언어를 기입 후 `Execute` 버튼 클릭하면 원하는 영상과 자막이 zip파일로 압축되어 반환된다.
     - 기본적으로 서버이기에 해당 프로그램을 이용해서 서버로서 활용 가능하다.
-[![video](https://img.youtube.com/vi/g8DIRg_2OUM/0.jpg)](https://www.youtube.com/watch?v=g8DIRg_2OUM)
+[![video](https://img.youtube.com/vi/g8DIRg_2OUM/0.jpg)](https://youtu.be/g8DIRg_2OUM?feature=shared&t=4934)
 
 ## 권장 사양
 - NVIDIA 그래픽 카드 VRAM 16GB 이상
