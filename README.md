@@ -13,7 +13,7 @@
 2. `git clone https://github.com/fdoom/video_srt.git`
 3. `cd video_srt`
 4. `docker compose up --build` 이후 whisper와 nllb 모델을 다운받는 과정을 거친다.
-5. `http://localhost:81/docs` 혹은 `http://localhost:8001/docs` 접속 후 `POST /` 요청에 `url`은 웹 주소, `lang_from`은 Whsiper 모델이 지원하는 언어를, `lang_to`는 nllb 모델이 지원하는 언어를 기입 후 `Execute` 버튼 클릭하면 원하는 영상과 자막이 zip파일로 압축되어 반환된다.
+5. `http://localhost:81/docs` 접속 후 `POST /` 요청에 `url`은 웹 주소, `lang_from`은 Whsiper 모델이 지원하는 언어를, `lang_to`는 nllb 모델이 지원하는 언어를 기입 후 `Execute` 버튼 클릭하면 원하는 영상과 자막이 zip파일로 압축되어 반환된다.
     - 기본적으로 서버이기에 해당 프로그램을 이용해서 서버로서 활용 가능하다.
 
 ## 실행결과
